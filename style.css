@@ -1,0 +1,21 @@
+kbd{
+    border: 1px solid red;
+    padding: 10px;
+    margin: 2px;
+    display: inline-block;
+    text-transform: capitalize;
+    width: 4em;
+    height: 4em;
+}
+section{
+    text-align: center;
+}
+main{
+    display: inline-block;
+}
+main>div:nth-child(2){
+    margin-left: 5px;
+}
+main>div:nth-child(3){
+    margin-left: 10px;
+}
